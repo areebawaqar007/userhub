@@ -21,6 +21,7 @@ app.post("/createuser", async (req, res) => {
 });
 
 
+// get users
 app.get("/", async (req, res) => {
   try {
     const users = await User.find({});

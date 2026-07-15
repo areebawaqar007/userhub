@@ -27,6 +27,7 @@ export default function Users() {
     });
 };
 
+  // get all users after the component loads
   useEffect(() => {
     axios
       .get("http://localhost:3000")
